@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sai Charan Developers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Your styles -->
+    <link href="css/style.css" rel="stylesheet" media="screen">  
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- styles for IE -->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie/ie.css" type="text/css" media="screen" />
+    <![endif]-->
+   
+  </head>
+  <body>
+      <!-- Login Client -->
+               <div class="line"></div>
+                         
+        <!-- End Login Client -->
+
+        <!-- Info Head -->
+        <section class="container info_head">              
+            <ul>  
+                <li><i class="icon-headphones"></i> +91 - 9490369555</li>
+                <li><i class="icon-comment"></i> jalagamnaveen@gmail.com</li>
+                <li style="float:right;"><img src="img/hmdalogo-top.png"> HMDA Approved Layout
+				</li>
+				<span class="jRibbon"> L.P.NO</span>
+
+            </ul>               
+        </section>
+		
+        <!-- Info Head -->
+
+        <!-- Nav-->
+        <nav>
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span3 logo">
+                        <a href="index.html"><img src="img/logo.png" alt="Image"></a>
+                    </div>
+                    <!-- Menu-->
+                    <ul id="menu" class="span9 sf-menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                                            <li>
+                            <a href="#">OUR PROJECTS</a>
+                            <ul>                                  
+                                <li><a href="properties.html">Running Projects</a></li>
+                                <li><a href="properties_two.html">Completed Projects</a></li>
+                            </ul>
+                        </li>  
+                        <li>
+                            <a href="gallery.html">GALLERY</a>
+                           
+                        </li>                                                                           
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <!-- End Menu-->
+                </div>
+            </div>
+        </nav>
+        <!-- End Nav-->
+
+
+        <!-- Section Title -->
+        <div class="section_title properties">
+            <div class="container">
+                <div class="row-fluid"> 
+                    <div class="span8">
+                        <h1>Completed Projects
+                            <span><a href="index.html">Home </a> / Completed Projects</span>
+                        </h1>
+                    </div>       
+                </div>
+            </div>            
+        </div>
+        <!-- End Section Title -->
+
+
+        <!-- End content info -->
+        <section class="container content_info">
+
+          <!-- Newsletter Box -->
+            <div class="row-fluid">
+                
+            </div>
+            <!-- End Newsletter Box -->
+
+            <div class="row-fluid padding_top">
+                <!-- Aside -->
+                <aside class="span4">                    
+                    <!-- Search Advance -->
+                    <div class="search_advance">                                                 
+                            
+                            <div class="row-fluid">
+                                <ul class="tabs_services">
+                                    <li><a id="1" class="switcher set2">Calculator</a></li>
+                                </ul>
+                                
+                                <div class="clearfix"></div>
+                                <div class="switcher-panel"></div> 
+
+                                <!-- 1-content -->
+                                <div id="1-content" class="switcher-content set2 show">
+                                  <div class="search_box calculator">
+                                      <form action="calculator.php" id="calculator">
+                                          <label>Calculate Your Propertie</label>
+                                            <div>                                                
+                                                <input type="number" required placeholder="Price Propertie" name="price">
+                                            </div> 
+                                            <div>                                                
+                                                <input type="number" required placeholder="Down payment" name="payment">
+                                            </div> 
+                                            <div>                                                
+                                                <select name="interest">
+                                                    <option>Interest Rate</option>                                  
+                                                    <option value="1.39">1.39 %</option>
+                                                    <option value="2">2%</option>
+                                                    <option value="3">3%</option>              
+                                                </select>
+                                            </div> 
+                                            <div>                                                
+                                                <select name="months">
+                                                    <option>Months</option>                                  
+                                                    <option>36</option>
+                                                    <option>48</option>
+                                                    <option>64</option>  
+                                                    <option>180</option>              
+                                                </select>
+                                            </div>                                                                               
+                                            <div>
+                                                <input type="submit" class="button" value="Calcule">
+                                            </div> 
+                                        </form>   
+                                        <div id="result_calculator"></div>                                 
+                                    </div>              
+                                </div>
+                                <!-- End 1-content -->
+
+                                <!-- 2-content -->
+                                <div id="2-content" class="switcher-content set2">
+                                   <div class="search_box">
+                                        <form action="properties.html">
+                                            <div class="">
+                                                <label>Search</label>
+                                                <input type="text" required>
+                                            </div>
+                                            <div class="">
+                                                <label>Location</label>
+                                                <select name="location">
+                                                    <option value="">-- Select city --</option>
+                                                     <option value="0" selected="selected">New York</option>
+                                                     <option value="1">Los Angeles</option>
+                                                     <option value="2">Chicago</option>
+                                                     <option value="3">Miami</option>
+                                                     <option value="4">San Francisco</option>
+                                                     <option value="5">Boston</option>
+                                                     <option value="6">Philadelphia</option>
+                                                     <option value="7">Dallas</option>                    
+                                                 </select>
+                                            </div>
+                                            <div class="">
+                                                <label>Price Range</label>                                     
+                                                <select name="pricing">
+                                                      <option>View all</option>                                  
+                                                    <option value="info_price">0 - 300.000</option>
+                                                    <option value="info_price">300.000 - 500.000</option>
+                                                    <option value="info_price">500.000 - 800.000</option>
+                                                    <option value="info_price">800.000 - 1.000.000</option>
+                                                    <option value="info_price">10.000.000 +</option>    
+                                                </select>
+                                            </div>
+                                            <div class="">
+                                                <label>Area</label>
+                                                <select name="area">
+                                                    <option>View all</option>
+                                                    <option value="info_area">0 - 60 m²</option>
+                                                    <option value="info_area">60 m² - 90 m²</option>
+                                                    <option value="info_area">90 m² - 150 m²</option>
+                                                    <option value="info_area">150 m² - 240 m²</option>
+                                                    <option value="info_area">240 m² - 360 m²</option>
+                                                    <option value="info_area">360 m² - 480 m²</option>
+                                                    <option value="info_area">480 m² - 600 m²</option>
+                                                    <option value="info_area">More 600 m²</option>
+                                                </select>
+                                            </div>
+                                            <div class="">
+                                                <input type="submit" class="button" value="Search">
+                                            </div> 
+                                        </form>                               
+                                    </div>   
+                                </div>
+                                <!-- End 1-content -->
+
+                                <!-- 3-content -->
+                                <div id="3-content" class="switcher-content set2">
+                                   <div class="search_box">
+                                        <form action="properties.html">
+                                            <div class="">
+                                                <label>Search</label>
+                                                <input type="text" required>
+                                            </div>
+                                            <div class="">
+                                                <label>Location</label>
+                                                <select name="location">
+                                                    <option value="">-- Select city --</option>
+                                                     <option value="0" selected="selected">New York</option>
+                                                     <option value="1">Los Angeles</option>
+                                                     <option value="2">Chicago</option>
+                                                     <option value="3">Miami</option>
+                                                     <option value="4">San Francisco</option>
+                                                     <option value="5">Boston</option>
+                                                     <option value="6">Philadelphia</option>
+                                                     <option value="7">Dallas</option>                    
+                                                 </select>
+                                            </div>
+                                            <div class="">
+                                                <label>Price Range</label>                                     
+                                                <select name="pricing">
+                                                      <option>View all</option>                                  
+                                                    <option value="info_price">0 - 300.000</option>
+                                                    <option value="info_price">300.000 - 500.000</option>
+                                                    <option value="info_price">500.000 - 800.000</option>
+                                                    <option value="info_price">800.000 - 1.000.000</option>
+                                                    <option value="info_price">10.000.000 +</option>    
+                                                </select>
+                                            </div>
+                                            <div class="">
+                                                <label>Area</label>
+                                                <select name="area">
+                                                    <option>View all</option>
+                                                    <option value="info_area">0 - 60 m²</option>
+                                                    <option value="info_area">60 m² - 90 m²</option>
+                                                    <option value="info_area">90 m² - 150 m²</option>
+                                                    <option value="info_area">150 m² - 240 m²</option>
+                                                    <option value="info_area">240 m² - 360 m²</option>
+                                                    <option value="info_area">360 m² - 480 m²</option>
+                                                    <option value="info_area">480 m² - 600 m²</option>
+                                                    <option value="info_area">More 600 m²</option>
+                                                </select>
+                                            </div>
+                                            <div class="">
+                                                <input type="submit" class="button" value="Search">
+                                            </div> 
+                                        </form>                               
+                                    </div>   
+                                </div>
+                                <!-- End 3-content -->
+
+                            </div>
+                        </div>
+                        <!-- End Search Advance -->
+
+                       
+
+                </aside>
+                <!-- End Aside -->
+
+                <!-- property List-->
+                <div class="span8 properties_two">
+
+                  <!-- Bar properties-->
+                  <div class="bar_properties">
+                      <div class="row-fluid">                          
+                         
+                      </div>
+                  </div>
+                  <!-- End Bar properties-->
+
+                  <div class="clearfix padding_top_mini"></div>
+                                      
+                    <div class="row-fluid">
+                        <!-- Item Property-->
+                        <div class="span4">
+                            <div class="item_property">
+                                <div class="head_property">
+                                    <div class="title"></div>
+                                    <img src="img/property/2.jpg" alt="Image">
+                                    <h5><a href="details_properties3.html">Sri Ram Nagar</a></h5>
+                                </div>                        
+                                <div class="info_property">                                    
+                                                                       
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item Property-->
+
+                        <!-- Item Property-->
+                        <div class="span4">
+                            <div class="item_property">
+                               <div class="head_property">
+                                    <div class="title"></div>
+                                    <img src="img/property/6.jpg" alt="Image">
+                                    <h5><a href="details_properties4.html">Sai Ganesh Nagar</a></h5>
+                                </div>  
+                                <div class="info_property">                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item Property-->
+
+                        <!-- Item Property-->
+                        <div class="span4">
+                            <div class="item_property">
+                                <div class="head_property">
+                                    <div class="title"></div>
+                                    <img src="img/property/7.jpg" alt="Image">
+                                    <h5><a href="details_properties5.html">Sri Laxmi Nagar</a></h5>
+                                </div>  
+                                <div class="info_property">                                    
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item Property-->
+                    </div>
+
+                                   
+                </div>                       
+                <!-- End property List-->
+            </div>
+        </section>
+        <!-- End content info-->
+
+       
+
+       
+
+        <!-- Footer area - footer_top -->
+        <footer class="section_area footer_top">
+            <div class="container center"> 
+
+                <h1>Get in touch</h1>
+                <p>#5-5-1166, Plot No. 302/B, ACE Krishna Arcade Vanasthali Puram, Hyderabad
+</p>
+                <a href="contact.html" class="button">Contact</a>                
+                <br><br>
+            </div>
+        </footer>
+        <!-- End Footer area - footer_top -->
+
+       <!-- Footer area - footer_medium -->
+        <footer class="section_area footer_medium">
+            <div class="container">
+                <div class="row-fluid">
+
+                   <!-- testimonials -->
+                   <div class="span3">
+                      <h3>Contact Us</h3>                        
+                        <ul class="contact_footer">
+                            <li>
+                                <i class="icon-envelope"></i><a href="#"> jalagamnaveen@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="icon-headphones"></i><a href="#">+91 - 9490369555</a>
+                             </li>
+                            <li class="location">
+                                <i class="icon-home"></i><a href="#"> #5-5-1166, Plot No. 302/B, ACE Krishna Arcade Vanasthali Puram, Hyderabad</a>
+                            </li>                                   
+                        </ul>               
+                    </div>
+                    <!-- End testimonials -->
+
+                    <!-- newsletter -->
+                    <div class="span3 links">
+                        <h3>Managing Director</h3>
+                        <img src="img/naveenimg.jpg">
+                    </div>
+                    <!-- End newsletter -->
+
+                    <!-- Tags -->
+                    <div class="span3 padding_items">
+                        <h3>Our Projects</h3>
+                        <ul class="tags">
+                            <li><a href="#">Sri Lakshmi Nagar Koheda</a></li>
+                            <li><a href="#">Sri Lakshmi Nagar Bibinagar</a></li>
+                            <li><a href="#">SriRamnagar</a></li>
+                            <li><a href="#">Sri Ganesh Nagar</a></li>
+                            <li><a href="#">Sri Laxmi Nagar</a></li>
+                            
+                        </ul>
+                    </div>
+                    <!-- End Tags -->
+
+                    <!-- Contact Footer -->
+                    <div class="span3">
+                        <div class="testimonials">
+                            <p>Sai Charan Developers, a well-established real estate company in Hyderabad, pioneered in Plots with best in class facilities and amenities is promoted by Mr. Jalagam Naveen. The Company has grown as one of the leading and most dependable names in real estate and property development in Hyderabad.
+
+</p>
+                            <span class="arrow_testimonials"></span>
+                        </div>        
+                        <h6 class="testimonial_autor">Jalagam Naveen</h6> 
+                    </div>
+                    <!-- End Contact Footer -->
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer area - footer_medium -->
+
+        <!-- Footer area - footer_down -->
+        <footer class="section_area footer_down">
+            <div class="container">
+                <div class="row-fluid">
+                   <div class="span6">
+                        <p>&copy; 2004 - 2018 Saicharan Developers. All rights reserved.</p>             
+                    </div>
+                    <div class="span6">
+                        <ul class="social">
+                            <li class="tooltip_hover" title="Facebook">
+                                <a href="https://www.facebook.com/saicharan.scd"><i class="icon-facebook"></i></a>
+                            </li>
+                            <li  class="tooltip_hover" title="Youtube">
+                                <a href="https://www.youtube.com/channel/UCEKp97XrqT2V97NgmhkuDRg"><i class="icon-video"></i></a>
+                            </li>
+                            <li  class="tooltip_hover" title="Google Plus">
+                                <a href="#"><i class="icon-google-plus"></i></a>
+                            </li>
+                            
+                            <li  class="tooltip_hover" title="Linkedin">
+                                <a href="#"><i class="icon-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer area- footer_down -->
+
+      <!-- ======================= JQuery libs =========================== -->
+        <!-- Always latest version of jQuery-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>         
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <!--Nav-->
+        <script type="text/javascript" src="js/nav/tinynav.js"></script> 
+        <script type="text/javascript" src="js/nav/superfish.js"></script>                
+        <!--efect_switcher-->
+        <script type='text/javascript' src='js/efect_switcher/jquery.content-panel-switcher.js'></script> 
+        <!--Totop-->
+        <script type="text/javascript" src="js/totop/jquery.ui.totop.js" ></script>  
+        <!--Slide-->
+        <script type="text/javascript" src="js/slide/camera.js" ></script>      
+        <script type='text/javascript' src='js/slide/jquery.easing.1.3.min.js'></script>         
+        <!--Ligbox--> 
+        <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.js"></script>
+        <!-- Bootstrap.js-->
+        <script src="js/bootstrap.js"></script>
+        <!--fUNCTIONS-->
+        <script type="text/javascript" src="js/jquery-func.js"></script>
+     <!-- ======================= End JQuery libs =========================== -->
+
+  </body>
+</html>
